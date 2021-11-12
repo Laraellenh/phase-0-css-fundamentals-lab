@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+header, .center {
+  text-align: center;
+}
+h2,
+p,
+section,
+ .center {
+  text-align: center;
+}
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header
+ {
+<a> 
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px
+  border: 5 px; 
+ border-color: #778899; }
+ 
+figure ~ p { display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 800px; }
+
+
+
+figcaption
+{
+text-align: center;
+font-size: small;
+}
+
+section .center
+{text-align: center;}
